@@ -1,0 +1,53 @@
+body {
+	overflow: hidden;
+	background-color: #f4f4f4;
+	padding: 12px;
+	flex-direction: column;
+}
+
+#head {
+	display: flex;
+	align-items: center;
+	margin-bottom: 12px;
+}
+
+#head .title {
+	margin-left: 10px;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+#wrapper {
+	width: 300px;
+	padding: 12px;
+}
+
+#content {
+	background-color: #fff;
+	padding: 18px;
+}
+
+.page .link {
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 8px;
+}
+
+.page .border {
+	height: 0.6px;
+	border-width: 0;
+	color: gray;
+	background-color: gray;
+	opacity: 0.2;
+	margin-bottom: 12px;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.pure-control-group textarea {
+	height: 100px;
+	resize: none;
+}

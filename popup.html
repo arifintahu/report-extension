@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<meta charset="UTF-8">
+        <title>Report An Issue</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="head">
+                <div class="icon">
+                    <img src="images/icon32.png" />
+                </div>
+                <div class="title">ReporterApp</div>
+            </div>
+            <div id="content">
+                <div class="page">
+                    <div class="link">Report An Issue</div>
+                    <hr class="border" />
+                </div>
+                <form class="pure-form pure-form-aligned">
+                    <fieldset>
+                        <div class="pure-control-group">
+                            <label for="aligned-subject">Issue</label>
+                            <input class="full-width" type="text" id="aligned-issue" placeholder="Issue" />
+                            <span class="pure-form-message-inline">This is a required field.</span>
+                        </div>
+                        <div class="pure-control-group">
+                            <label for="aligned-summary">Summary</label>
+                            <textarea class="full-width" id="aligned-summary" placeholder="Issue summary"></textarea>
+                        </div>
+                        <div class="pure-controls">
+                            <button type="submit" id="sendReport" class="pure-button pure-button-primary">   Send
+                            </button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <!-- wrapper -->
+        
+        <script src="popup.js"></script>
+    </body>
+</html>
