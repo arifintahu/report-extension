@@ -19,6 +19,12 @@
                     <div class="link">Report An Issue</div>
                     <hr class="border" />
                 </div>
+                <div class="status">
+                    <div>Popups:</div>
+                    <div><span>9</span> successfully blocked</div>
+                    <div><span>12</span> reported</div>
+                    <div><span>90%</span> success rate</div>
+                </div>
                 <form class="pure-form pure-form-aligned">
                     <fieldset>
                         <div class="pure-control-group">
@@ -30,9 +36,13 @@
                             <label for="aligned-summary">Summary</label>
                             <textarea class="full-width" id="aligned-summary" placeholder="Issue summary"></textarea>
                         </div>
-                        <div class="pure-controls">
+                        <div class="pure-controls footer">
                             <button type="submit" id="sendReport" class="pure-button pure-button-primary">   Send
                             </button>
+                            <div class="unresolved">
+                                <div class="number">2</div>
+                                <div class="text">unresolved issues</div>
+                            </div>
                         </div>
                     </fieldset>
                 </form>

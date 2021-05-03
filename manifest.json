@@ -17,6 +17,9 @@
     "tabs",
     "activeTab"
   ],
+  "host_permissions": [
+    "https://api-mirror.herokuapp.com/*"
+  ],
   "background": {
     "service_worker": "background.js"
   }
